@@ -12,8 +12,7 @@ const Home = () => {
     >
       <div
         className="max-w-screen-lg mx-auto
-      flex flex-col justify-center items-center h-full px-4 md:flex-row
-      "
+              flex flex-col justify-center items-center h-full px-4 md:flex-row"
       >
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
@@ -47,7 +46,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>
