@@ -1,38 +1,39 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-navy"
     >
-      <div
-        className="max-w-screen-lg mx-auto
-              flex flex-col justify-center items-center h-full px-4 md:flex-row"
-      >
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+      <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center mx-auto px-6 md:px-28 ">
+          <span className="text-cyan pb-8">Hi, my name is</span>
+
+          <h2 className="text-5xl md:text-7xl font-bold text-sky">Vicky Lee.</h2>
+
+          <h2 className="text-5xl md:text-7xl font-bold text-sky-dark py-4">
+            I build things for the web and mobile
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+
+          <h2 className="text-sky-dark my-4 w-1/2">
             I have 1+ years of experience building and designing software.
             Currently, I love to work on web and mobile application using
             technology like React, React Native, Tailwind.
-          </p>
+          </h2>
 
           <div>
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 
-            flex items-center 
-            bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md
-            cursor-pointer"
+              className="group text-cyan w-fit px-6 py-3 my-2 
+          flex items-center
+          border-2 border-cyan rounded-md
+          cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
@@ -40,14 +41,6 @@ const Home = () => {
               </span>
             </Link>
           </div>
-        </div>
-
-        <div>
-          <img
-            src={HeroImage}
-            alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
         </div>
       </div>
     </div>

@@ -4,17 +4,17 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="bg-gradient-to-b from-black to-gray-800 text-white "
+      className="bg-navy text-sky "
     >
       <div
         className="flex flex-col p-4 justify-center w-full h-screen
       max-w-screen-lg mx-auto"
       >
         <div className="pb-8 pt-20">
-          <p className="text-4xl font-bold border-b-4 border-gray-500 inline">
-            Contact
+          <p className="text-4xl font-bold border-b-4 border-sky inline">
+            <span className="text-cyan">04.</span> Contact
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-sky">Submit the form below to get in touch with me</p>
         </div>
 
         <div className="flex justify-center items-center">
@@ -27,7 +27,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md
+              className="p-2 bg-navy border-2 border-sky rounded-md
               text-white focus:outline-none"
             />
 
@@ -35,7 +35,7 @@ const Contact = () => {
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-2 p-2 bg-transparent border-2 rounded-md
+              className="my-2 p-2 bg-navy border-2 border-sky rounded-md
               text-white focus:outline-none"
             />
 
@@ -43,12 +43,12 @@ const Contact = () => {
               name="message"
               rows="10"
               placeholder="Enter your message"
-              className="p-2 bg-transparent border-2 rounded-md
+              className="p-2 bg-navy border-2 border-sky rounded-md
               text-white focus:outline-none"
             ></textarea>
 
             <button
-              className="text-white bg-gradient-to-b from-cyan-500 to-blue-500
+              className="text-cyan border-2
             px-6 py-3 my-8 mx-auto 
             rounded-md hover:scale-110 duration-300
             flex items-center"
