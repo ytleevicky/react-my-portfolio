@@ -92,7 +92,7 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} shadow-sky-dark`}
+              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
               <img
                 src={src}
