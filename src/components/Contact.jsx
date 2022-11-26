@@ -48,7 +48,7 @@ const Contact = () => {
             ></textarea>
 
             <button
-              className="text-cyan border-2
+              className="text-cyan border-2 border-cyan
             px-6 py-3 my-8 mx-auto 
             rounded-md hover:scale-110 duration-300
             flex items-center"
