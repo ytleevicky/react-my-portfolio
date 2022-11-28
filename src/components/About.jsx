@@ -14,7 +14,7 @@ const About = () => {
       >
         <div className="pt-20 md:py-20">
           <p className="text-4xl font-bold border-b-4 border-sky inline ">
-            <span className="text-cyan">01.</span> About
+            <span className="text-cyan">01.</span> About me
           </p>
         </div>
 

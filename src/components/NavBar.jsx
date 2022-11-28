@@ -9,7 +9,7 @@ const NavBar = () => {
     {
       id: 1,
       linkOrder: "01.",
-      link: "about",
+      link: "about me",
     },
     {
       id: 2,
