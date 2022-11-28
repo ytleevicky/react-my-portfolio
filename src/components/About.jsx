@@ -1,6 +1,6 @@
 import React from "react";
 
-import HeroImage from "../assets/heroImage.png";
+import HeroImage2 from "../assets/heroImage2.jpeg";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col md:flex-row md:justify-between h-full">
-          <div className="max-w-md mb-7">
+          <div className="max-w-md mb-7 w-full">
             <h2 className="max-w-xl mt-3 text-sky">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
               qui natus delectus molestias eum sed praesentium in adipisci
@@ -31,9 +31,9 @@ const About = () => {
           {/* Image */}
           <div>
             <img
-              src={HeroImage}
+              src={HeroImage2}
               alt="my profile"
-              className="rounded-3xl mx-auto w-2/3 md:w-full"
+              className="rounded-3xl mx-auto w-2/3"
             />
           </div>
         </div>

@@ -20,9 +20,7 @@ const Home = () => {
           </h2>
 
           <h2 className="text-sky-dark my-4 w-1/2">
-            I have 1+ years of experience building and designing software.
-            Currently, I love to work on web and mobile application using
-            technology like React, React Native, Tailwind.
+            I am a software engineer specializing in building web and mobile application.
           </h2>
 
           <div>
