@@ -20,7 +20,7 @@ const Home = () => {
           </h2>
 
           <h2 className="text-sky-dark my-4 w-1/2">
-            I am a software engineer specializing in building web and mobile application.
+            Full-stack Software Developer / Web Developer / Mobile Developer
           </h2>
 
           <div>

@@ -21,10 +21,18 @@ const About = () => {
         <div className="flex flex-col md:flex-row md:justify-between h-full">
           <div className="max-w-md mb-7 w-full">
             <h2 className="max-w-xl mt-3 text-sky">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
-              qui natus delectus molestias eum sed praesentium in adipisci
-              accusamus. Molestias eaque aliquam ea iusto? Quaerat, ducimus?
-              Odit nemo ipsam libero?
+              Hello! I'm Vicky Lee, a Junior Software Engineer currently based in Toronto.
+            </h2>
+            <br />
+            <h2>
+              In June 2021, I completed my 4-years undergraduate studies in
+              Computer Science at Hong Kong Baptist University. Then, I worked as a C# .NET Programmer in Hong Kong Electric
+              Co. Ltd. (One of Hong Kong's two major electrical utility providers) for more than a year. While working, I gradually develop my interest in
+              mobile app development.
+            </h2>
+            <br />
+            <h2>
+              Therefore, in September 2022, I come to Toronto to pursue a postgraduate certificate concentrating on the discipline of mobile app development at the George Brown College.
             </h2>
           </div>
 
