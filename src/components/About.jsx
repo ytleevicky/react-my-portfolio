@@ -5,7 +5,7 @@ import HeroImage from "../assets/heroImage.png";
 const About = () => {
   return (
     <div
-      name="about"
+      name="about me"
       className="h-screen w-full bg-navy"
     >
       <div
@@ -33,7 +33,7 @@ const About = () => {
             <img
               src={HeroImage}
               alt="my profile"
-              className="rounded-2xl mx-auto w-2/3 md:w-full"
+              className="rounded-3xl mx-auto w-2/3 md:w-full"
             />
           </div>
         </div>
