@@ -19,7 +19,7 @@ const Home = () => {
             I build things for the web and mobile
           </h2>
 
-          <h2 className="text-sky-dark my-4 w-1/2">
+          <h2 className="text-sky-dark my-4 md:w-1/2">
             Full-stack Software Developer / Web Developer / Mobile Developer
           </h2>
 
