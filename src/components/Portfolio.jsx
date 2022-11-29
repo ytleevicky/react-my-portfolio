@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-navy text-sky md:h-screen"
+      className="bg-navy text-sky h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col 
       justify-center w-full h-full">
