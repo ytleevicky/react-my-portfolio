@@ -6,17 +6,46 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
+import { useState, useEffect } from "react";
+import GridLoader from "react-spinners/GridLoader";
+import "./index.css";
+
 function App() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
-      <Portfolio />
-      <Experience />
-      <Contact />
+      {loading ? (
+        <div id="spinner">
+          <GridLoader
+            className=""
+            color={"var(--cyan)"}
+            loading={loading}
+            size={30}
+            speedMultiplier={1}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
+        </div>
+      ) : (
+        <div>
+          <NavBar />
+          <Home />
+          <About />
+          <Portfolio />
+          <Experience />
+          <Contact />
 
-      <SocialLinks />
+          <SocialLinks />
+        </div>
+      )}
     </div>
   );
 }
