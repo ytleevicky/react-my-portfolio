@@ -13,13 +13,13 @@ const Home = () => {
         <div className="flex flex-col justify-center mx-auto px-6 md:px-28 ">
           <span className="text-cyan pb-8">Hi, my name is</span>
 
-          <h2 className="text-5xl md:text-7xl font-bold text-sky">Vicky Lee.</h2>
+          <h2 className="text-5xl md:text-7xl font-bold text-lightest-slate">Vicky Lee.</h2>
 
-          <h2 className="text-5xl md:text-7xl font-bold text-sky-dark py-4">
+          <h2 className="text-5xl md:text-7xl font-bold text-slate py-4">
             I build things for the web and mobile
           </h2>
 
-          <h2 className="text-sky-dark my-4 md:w-1/2">
+          <h2 className="text-slate my-4 md:w-1/2">
             Full-stack Software Developer / Web Developer / Mobile Developer
           </h2>
 

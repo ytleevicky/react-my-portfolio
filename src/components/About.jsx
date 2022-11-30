@@ -10,17 +10,17 @@ const About = () => {
     >
       <div
         className="max-w-screen-lg mx-auto p-4 flex flex-col
-                justify-center w-full h-full text-sky"
+                justify-center w-full h-full text-lightest-slate"
       >
         <div className="pt-40 md:py-20 md:pt-20">
-          <p className="text-4xl font-bold border-b-4 border-sky inline ">
+          <p className="text-4xl font-bold border-b-4 border-lightest-slate inline ">
             <span className="text-cyan">01.</span> About me
           </p>
         </div>
 
         <div className="flex flex-col md:flex-row md:justify-between h-full">
           <div className="max-w-md mb-7 w-full">
-            <h2 className="max-w-xl mt-3 text-sky">
+            <h2 className="max-w-xl mt-3 text-lightest-slate">
               Hello! I'm Vicky Lee, a Junior Software Engineer currently based
               in Toronto. I'm passionate about building things for the web and
               mobile.

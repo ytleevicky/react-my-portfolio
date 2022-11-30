@@ -6,11 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'navy': '#0A192F',
-        'cyan': '#64FFDA',
-        'sky': '#CCD6F6',
-        'sky-dark': '#8892B0',
-        'transparent': '00FFFFFF'
+        'navy': "var(--navy)",
+        'cyan': "var(--cyan)",
+        'lightest-slate': "var(--lightest-slate)",
+        'slate': "var(--slate)",
       }
     },
     fontFamily: {

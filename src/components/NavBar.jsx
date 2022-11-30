@@ -29,7 +29,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-sky bg-navy fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-lightest-slate bg-navy fixed">
       <div>
         <h1 className="text-5xl font-signature ml-2 text-cyan">Vicky</h1>
       </div>
@@ -39,7 +39,7 @@ const NavBar = () => {
           <li
             key={id}
             className="px-4 cursor-pointer capitalize font-medium
-                                text-gray-500 hover:scale-105 duration-200"
+                                text-lightest-slate hover:scale-105 duration-200"
           >
             <Link
               to={link}
@@ -47,7 +47,7 @@ const NavBar = () => {
               duration={500}
               className="hover:text-cyan"
             >
-              <span className="text-cyan font-">{linkOrder}</span> {link}
+              <span className="text-cyan">{linkOrder}</span> {link}
             </Link>
           </li>
         ))}
@@ -62,7 +62,7 @@ const NavBar = () => {
 
       {nav && (
         <ul
-          className="flex flex-col justify-center items-center
+          className="flex flex-col justify-center items-start px-8
             absolute top-0 left-0 w-full h-screen 
             bg-navy"
         >
@@ -76,7 +76,7 @@ const NavBar = () => {
                 to={link}
                 smooth
                 duration={500}
-                className="hover:text-cyan"
+                className="hover:text-cyan text-lightest-slate"
               >
                 <span className="text-cyan">{linkOrder}</span> {link}
               </Link>

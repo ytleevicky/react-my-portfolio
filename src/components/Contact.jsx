@@ -4,17 +4,17 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="bg-navy text-sky "
+      className="bg-navy text-lightest-slate "
     >
       <div
         className="flex flex-col p-4 justify-center w-full h-screen
       max-w-screen-lg mx-auto"
       >
         <div className="pb-8 pt-20">
-          <p className="text-4xl font-bold border-b-4 border-sky inline">
+          <p className="text-4xl font-bold border-b-4 border-lightest-slate inline">
             <span className="text-cyan">04.</span> Contact
           </p>
-          <p className="py-6 text-sky">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-lightest-slate">Submit the form below to get in touch with me</p>
         </div>
 
         <div className="flex justify-center items-center">
@@ -27,7 +27,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-navy border-2 border-sky rounded-md
+              className="p-2 bg-navy border-2 border-lightest-slate rounded-md
               text-white focus:outline-none"
             />
 
@@ -35,7 +35,7 @@ const Contact = () => {
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-2 p-2 bg-navy border-2 border-sky rounded-md
+              className="my-2 p-2 bg-navy border-2 border-lightest-slate rounded-md
               text-white focus:outline-none"
             />
 
@@ -43,7 +43,7 @@ const Contact = () => {
               name="message"
               rows="10"
               placeholder="Enter your message"
-              className="p-2 bg-navy border-2 border-sky rounded-md
+              className="p-2 bg-navy border-2 border-lightest-slate rounded-md
               text-white focus:outline-none"
             ></textarea>
 

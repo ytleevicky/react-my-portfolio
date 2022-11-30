@@ -15,22 +15,22 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-navy text-sky h-screen"
+      className="bg-navy text-lightest-slate h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col 
       justify-center w-full h-full">
         <div className="pt-20">
-          <p className="text-4xl font-bold inline border-b-4 border-sky">
+          <p className="text-4xl font-bold inline border-b-4 border-lightest-slate">
             <span className="text-cyan">02.</span> Portfolio
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 py-8 text-sky">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 py-8 text-lightest-slate">
           {portfolios.map(({ id, src, codeURL, demoURL }) => (
             <div
               key={id}
-              className="shadow-md shadow-sky-dark rounded-lg"
+              className="shadow-md shadow-slate rounded-lg"
             >
               <img
                 src={src}

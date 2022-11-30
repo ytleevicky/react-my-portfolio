@@ -3,8 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 @tailwind base;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary-color);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--navy);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--dark-slate);
+  border: 3px solid var(--navy);
+  border-radius: 10px;
+}
+
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --navy: #0A192F;
+  --cyan: #64FFDA;
+  --dark-slate: #495670;
+  --lightest-slate: #CCD6F6;
+  --slate: #8892B0;
+}
 
 
 @layer base {
