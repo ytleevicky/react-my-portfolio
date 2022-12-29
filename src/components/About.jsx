@@ -1,6 +1,6 @@
 import React from "react";
 
-import HeroImage2 from "../assets/heroImage2.jpeg";
+import HeroImage2 from "../assets/heroImage3.jpg";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col md:flex-row md:justify-between h-full">
-          <div className="max-w-md mb-7 w-full">
+          <div className="max-w-md mb-7">
             <h2 className="max-w-xl mt-3 text-lightest-slate">
               Hello! I'm Vicky Lee, a Junior Software Engineer currently based
               in Toronto. I'm passionate about building things for the web and
