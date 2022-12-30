@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
+
 import { useState, useEffect } from "react";
 import GridLoader from "react-spinners/GridLoader";
 import "./index.css";
@@ -46,7 +47,7 @@ function App() {
           <SocialLinks />
         </div>
       )}
-    </div>
+    </div> 
   );
 }
 

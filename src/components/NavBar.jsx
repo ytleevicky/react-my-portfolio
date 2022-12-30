@@ -29,7 +29,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-lightest-slate bg-navy fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-lightest-slate bg-navy fixed z-10">
       <div>
         <a
           href="/"

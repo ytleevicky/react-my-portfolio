@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'navy': "var(--navy)",
+        'dark-navy': "var(--dark-navy)",
         'cyan': "var(--cyan)",
         'lightest-slate': "var(--lightest-slate)",
         'slate': "var(--slate)",
