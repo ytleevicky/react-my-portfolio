@@ -14,7 +14,7 @@ const Video = (props) => {
 
       <div className="flex justify-center items-center">
         <iframe
-          className="w-10/12 aspect-video"
+          className="w-10/12 aspect-video block"
           src={props.url}
           title="Demo video"
           allow="autoplay"
