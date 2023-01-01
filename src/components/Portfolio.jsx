@@ -11,7 +11,7 @@ const Portfolio = () => {
       src: groupmatesFinder,
       codeURL: "https://github.com/ytleevicky/GroupMatesFinder",
       demoURL:
-        "https://drive.google.com/file/d/19_W0t_W8B4piBwR7IVBgW4AQ-snpZAHV/preview",
+        "https://youtu.be/O9rA6JNOSPg",
     },
   ];
 

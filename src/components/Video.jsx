@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player/lazy";
 import { FaTimes } from "react-icons/fa";
 
 const Video = (props) => {
@@ -13,9 +14,14 @@ const Video = (props) => {
       </div>
 
       <div className="flex justify-center items-center">
-        <iframe
+        <ReactPlayer
           className="w-10/12 aspect-video"
-          src={props.url}
+          width="88%"
+          height="88%"
+          playing="true"
+          volume="0.5"
+          controls="true"
+          url={props.url}
           title="Demo video"
           allowFullScreen="true"
         />
