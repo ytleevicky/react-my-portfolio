@@ -12,7 +12,7 @@ const About = () => {
         className="max-w-screen-lg mx-auto p-4 flex flex-col
                 justify-center w-full h-full text-lightest-slate"
       >
-        <div className="pt-40 md:py-20 md:pt-20">
+        <div className="pt-28 md:py-20 md:pt-20">
           <p className="text-4xl font-bold border-b-4 border-lightest-slate inline ">
             <span className="text-cyan">01.</span> About me
           </p>
@@ -51,7 +51,7 @@ const About = () => {
             <img
               src={HeroImage2}
               alt="my profile"
-              className="rounded-3xl md:mx-auto w-72 md:w-2/3"
+              className="rounded-3xl md:mx-auto w-60 md:w-2/3"
             />
           </div>
         </div>
