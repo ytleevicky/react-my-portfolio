@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import groupmatesFinder from "../assets/portfolio/groupmatesFinder.png";
+import worldCountries from "../assets/portfolio/worldCountries.png";
 import Video from "./Video";
 
 const Portfolio = () => {
@@ -10,8 +11,13 @@ const Portfolio = () => {
       id: 1,
       src: groupmatesFinder,
       codeURL: "https://github.com/ytleevicky/GroupMatesFinder",
-      demoURL:
-        "https://youtu.be/O9rA6JNOSPg",
+      demoURL: "https://youtu.be/O9rA6JNOSPg",
+    },
+    {
+      id: 2,
+      src: worldCountries,
+      codeURL: "https://github.com/ytleevicky/world-countries",
+      demoURL: "https://youtu.be/gB5e6Y6h_5Y",
     },
   ];
 
@@ -43,7 +49,6 @@ const Portfolio = () => {
                 className="rounded-md hover:scale-105 duration-200"
               />
               <div className="flex justify-center items-center">
-                
                 <button
                   className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200"
                   onClick={() => setButtonPopup(true)}
