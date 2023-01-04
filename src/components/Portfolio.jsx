@@ -39,7 +39,7 @@ const Portfolio = () => {
       className="bg-navy text-lightest-slate md:h-screen"
     >
       <div
-        className="max-w-screen-lg mx-auto p-12 flex flex-col 
+        className="max-w-screen-lg mx-auto p-6 md:p-12 flex flex-col 
       justify-center w-full h-full"
       >
         <div className="pt-24 md:pt-0">
