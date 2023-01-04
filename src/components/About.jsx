@@ -51,7 +51,7 @@ const About = () => {
             <img
               src={HeroImage2}
               alt="my profile"
-              className="rounded-3xl md:mx-auto w-60 md:w-2/3"
+              className="rounded-3xl md:mx-auto w-60 md:w-2/3 hidden md:block"
             />
           </div>
         </div>
