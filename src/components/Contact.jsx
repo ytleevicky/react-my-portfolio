@@ -7,7 +7,7 @@ const Contact = () => {
       className="bg-navy text-lightest-slate md:h-screen"
     >
       <div
-        className="flex flex-col p-4 justify-center w-full h-screen
+        className="flex flex-col p-12 justify-center w-full h-screen
       max-w-screen-lg mx-auto"
       >
         <div className="pt-24 md:pt-0">

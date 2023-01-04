@@ -9,7 +9,7 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-navy"
     >
-      <div className="flex flex-col justify-center h-full">
+      <div className="flex flex-col justify-center h-full p-12">
         <div className="flex flex-col justify-center mx-auto px-6 md:px-28 ">
           <span className="text-cyan pb-8">Hi, my name is</span>
 

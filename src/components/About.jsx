@@ -9,7 +9,7 @@ const About = () => {
       className="bg-navy md:h-screen"
     >
       <div
-        className="max-w-screen-lg mx-auto p-4 flex flex-col
+        className="max-w-screen-lg mx-auto p-12 flex flex-col
         justify-center w-full h-full text-lightest-slate"
       >
         <div className="pt-24 md:pt-0">
@@ -18,9 +18,9 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row py-6 items-center">
-          <div className="max-w-md mb-7">
-            <h2 className="max-w-xl mt-3 text-lightest-slate">
+        <div className="flex flex-col md:flex-row py-6 justify-between md:space-x-14">
+          <div className="grow max-w-xl mb-7">
+            <h2>
               Hello! I'm Vicky Lee, a Junior Software Engineer currently based
               in Toronto. I'm passionate about building things for the web and
               mobile.
@@ -36,7 +36,9 @@ const About = () => {
               providers) for more than a year. While working, I gradually
               develop my interest in mobile app development.
             </h2>
+
             <br />
+
             <h2>
               Therefore, in September 2022, I come to Toronto to pursue a
               postgraduate certificate concentrating on the discipline of mobile
@@ -51,7 +53,7 @@ const About = () => {
             <img
               src={HeroImage2}
               alt="my profile"
-              className="rounded-3xl md:mx-auto w-60 md:w-2/3"
+              className="rounded-3xl mx-auto md:w-fit w-9/12"
             />
           </div>
         </div>
