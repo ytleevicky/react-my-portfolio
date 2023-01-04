@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import groupmatesFinder from "../assets/portfolio/groupmatesFinder.png";
 import worldCountries from "../assets/portfolio/worldCountries.png";
+import yardSale from "../assets/portfolio/yardSale.png"
 import Video from "./Video";
 
 const Portfolio = () => {
@@ -15,10 +16,17 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      src: yardSale,
+      codeURL: "https://github.com/ytleevicky/android-yard-sale",
+      demoURL: "https://youtu.be/FnRlRJ7X5Xc",
+    },
+    {
+      id: 3,
       src: worldCountries,
       codeURL: "https://github.com/ytleevicky/world-countries",
       demoURL: "https://youtu.be/gB5e6Y6h_5Y",
     },
+  
   ];
 
   return (
