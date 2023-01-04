@@ -1,32 +1,36 @@
 import React, { useState } from "react";
+import ModalVideo from "react-modal-video";
+
 import groupmatesFinder from "../assets/portfolio/groupmatesFinder.png";
 import worldCountries from "../assets/portfolio/worldCountries.png";
-import yardSale from "../assets/portfolio/yardSale.png"
-import Video from "./Video";
+import yardSale from "../assets/portfolio/yardSale.png";
 
 const Portfolio = () => {
-  const [buttonPopup, setButtonPopup] = useState(false);
+  const [isOpen, setOpen] = useState(false);
+  const [currentVideoId, setCurrentVideoId] = useState(null);
 
   const portfolios = [
     {
-      id: 1,
+      id: 0,
       src: groupmatesFinder,
       codeURL: "https://github.com/ytleevicky/GroupMatesFinder",
       demoURL: "https://youtu.be/O9rA6JNOSPg",
+      youtubeID: "O9rA6JNOSPg",
     },
     {
-      id: 2,
+      id: 1,
       src: yardSale,
       codeURL: "https://github.com/ytleevicky/android-yard-sale",
       demoURL: "https://youtu.be/FnRlRJ7X5Xc",
+      youtubeID: "FnRlRJ7X5Xc",
     },
     {
-      id: 3,
+      id: 2,
       src: worldCountries,
       codeURL: "https://github.com/ytleevicky/world-countries",
       demoURL: "https://youtu.be/gB5e6Y6h_5Y",
+      youtubeID: "gB5e6Y6h_5Y",
     },
-  
   ];
 
   return (
@@ -46,7 +50,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 py-8 text-lightest-slate">
-          {portfolios.map(({ id, src, codeURL, demoURL }) => (
+          {portfolios.map(({ id, src, codeURL, youtubeID }) => (
             <div
               key={id}
               className="shadow-md shadow-slate rounded-lg"
@@ -59,16 +63,13 @@ const Portfolio = () => {
               <div className="flex justify-center items-center">
                 <button
                   className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200"
-                  onClick={() => setButtonPopup(true)}
+                  onClick={() => {
+                    setOpen(true);
+                    setCurrentVideoId(youtubeID);
+                  }}
                 >
                   Demo
                 </button>
-
-                <Video
-                  trigger={buttonPopup}
-                  setTrigger={setButtonPopup}
-                  url={demoURL}
-                />
 
                 <button className="w-1/2 px-6 py-3 m-4 hover:scale-105 duration-200">
                   <a
@@ -82,6 +83,13 @@ const Portfolio = () => {
               </div>
             </div>
           ))}
+
+          <ModalVideo
+            channel="youtube"
+            isOpen={isOpen}
+            videoId={currentVideoId}
+            onClose={() => setOpen(false)}
+          />
         </div>
       </div>
     </div>

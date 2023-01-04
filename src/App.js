@@ -9,7 +9,7 @@ import SocialLinks from "./components/SocialLinks";
 
 import { useState, useEffect } from "react";
 import GridLoader from "react-spinners/GridLoader";
-import "./index.css";
+import "./index.scss";
 
 function App() {
   const [loading, setLoading] = useState(false);
