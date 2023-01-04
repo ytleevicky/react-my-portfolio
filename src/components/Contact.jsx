@@ -10,11 +10,13 @@ const Contact = () => {
         className="flex flex-col p-4 justify-center w-full h-screen
       max-w-screen-lg mx-auto"
       >
-        <div>
+        <div className="pt-24 md:pt-0">
           <p className="text-4xl font-bold border-b-4 border-lightest-slate inline">
             <span className="text-cyan">04.</span> Contact
           </p>
-          <p className="py-6 text-lightest-slate">Submit the form below to get in touch with me</p>
+          <p className="py-6 text-lightest-slate">
+            Submit the form below to get in touch with me
+          </p>
         </div>
 
         <div className="flex justify-center items-center">

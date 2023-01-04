@@ -8,7 +8,7 @@ import swift from "../assets/swift.png";
 import nodejs from "../assets/nodejs.png";
 import github from "../assets/github.png";
 import kotlin from "../assets/kotlin.png";
-import csharp from "../assets/csharp.png"
+import csharp from "../assets/csharp.png";
 
 const Experience = () => {
   const techs = [
@@ -60,7 +60,7 @@ const Experience = () => {
       title: "Kotlin",
       style: "shadow-indigo-400",
     },
-    
+
     {
       id: 9,
       src: github,
@@ -78,11 +78,13 @@ const Experience = () => {
         className="max-w-screen-lg mx-auto p-4 flex flex-col
                 justify-center w-full h-full text-lightest-slate"
       >
-        <div className="pt-32 md:pt-0">
+        <div className="pt-24 md:pt-0">
           <p className="text-4xl font-bold border-b-4 border-lightest-slate inline ">
             <span className="text-cyan">03.</span> Experience
           </p>
-          <p className="py-6 text-lightest-slate">These are the technologies I've worked with.</p>
+          <p className="py-6 text-lightest-slate">
+            These are the technologies I've worked with.
+          </p>
         </div>
 
         <div
