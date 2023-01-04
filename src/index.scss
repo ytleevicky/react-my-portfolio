@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
-@import 'node_modules/react-modal-video/scss/modal-video.scss';
+@import "node_modules/react-modal-video/scss/modal-video.scss";
 
 @tailwind base;
 
@@ -51,5 +51,9 @@
     width: 100%;
     height: 100vh;
     background-color: var(--dark-navy);
+  }
+  .h-screen {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
   }
 }

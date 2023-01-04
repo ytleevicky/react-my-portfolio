@@ -10,7 +10,7 @@ const Contact = () => {
         className="flex flex-col p-4 justify-center w-full h-screen
       max-w-screen-lg mx-auto"
       >
-        <div className="pb-8 pt-20">
+        <div>
           <p className="text-4xl font-bold border-b-4 border-lightest-slate inline">
             <span className="text-cyan">04.</span> Contact
           </p>

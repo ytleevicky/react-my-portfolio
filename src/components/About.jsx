@@ -6,19 +6,19 @@ const About = () => {
   return (
     <div
       name="about me"
-      className="h-screen w-full bg-navy"
+      className="bg-navy md:h-screen"
     >
       <div
         className="max-w-screen-lg mx-auto p-4 flex flex-col
-                justify-center w-full h-full text-lightest-slate"
+        justify-center w-full h-full text-lightest-slate"
       >
-        <div className="pt-28 md:py-20 md:pt-20">
-          <p className="text-4xl font-bold border-b-4 border-lightest-slate inline ">
+        <div>
+          <p className="text-4xl font-bold inline border-b-4 border-lightest-slate ">
             <span className="text-cyan">01.</span> About me
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row md:justify-between h-full">
+        <div className="flex flex-col md:flex-row py-6 items-center">
           <div className="max-w-md mb-7">
             <h2 className="max-w-xl mt-3 text-lightest-slate">
               Hello! I'm Vicky Lee, a Junior Software Engineer currently based
@@ -51,7 +51,7 @@ const About = () => {
             <img
               src={HeroImage2}
               alt="my profile"
-              className="rounded-3xl md:mx-auto w-60 md:w-2/3 hidden md:block"
+              className="rounded-3xl md:mx-auto w-60 md:w-2/3"
             />
           </div>
         </div>

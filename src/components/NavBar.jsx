@@ -48,6 +48,7 @@ const NavBar = () => {
           >
             <Link
               to={link}
+              offset={-50}
               smooth
               duration={500}
               className="hover:text-cyan"
