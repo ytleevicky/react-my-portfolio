@@ -7,16 +7,20 @@ const NavBar = () => {
 
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [scrollToTop, setScrollToTop] = useState(true);
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
 
     if (currentScrollPos <= 0) {
       setVisible(true);
+      setScrollToTop(true);
     } else if (currentScrollPos > prevScrollPos) {
       setVisible(false);
+      setScrollToTop(false);
     } else {
       setVisible(true);
+      setScrollToTop(false);
     }
 
     setPrevScrollPos(currentScrollPos);
@@ -24,7 +28,6 @@ const NavBar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
@@ -54,7 +57,9 @@ const NavBar = () => {
   return (
     <div
       className={`flex justify-between items-center w-full h-20 px-4 text-lightest-slate bg-navy fixed z-10 opacity-95
-      ${visible ? "mt-[100] duration-300" : "mt-[-100px] duration-300"} `}
+      ${visible ? "mt-[100] duration-300" : "mt-[-100px] duration-300 "} 
+      ${scrollToTop ? "" : "shadow-lg"}
+      `}
     >
       <div>
         <a
