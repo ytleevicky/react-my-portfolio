@@ -53,7 +53,7 @@ const About = () => {
             <img
               src={HeroImage2}
               alt="my profile"
-              className="rounded-3xl mx-auto w-3/4 md:w-full"
+              className="rounded-3xl mx-auto w-3/4 md:w-full transform transition-all hover:scale-105"
             />
           </div>
         </div>
