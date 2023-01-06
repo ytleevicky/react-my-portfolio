@@ -56,7 +56,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`flex justify-between items-center w-full px-6 py-3 text-lightest-slate bg-navy fixed z-10 opacity-95
+      className={`flex justify-between items-center w-full px-6 py-4 text-lightest-slate bg-navy fixed z-10 opacity-95
       ${visible ? "mt-[100] duration-300" : "mt-[-100px] duration-300 "} 
       ${scrollToTop ? "" : "shadow-lg"}
       `}
