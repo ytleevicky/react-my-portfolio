@@ -56,7 +56,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`flex justify-between items-center w-full h-20 px-4 text-lightest-slate bg-navy fixed z-10 opacity-95
+      className={`flex justify-between items-center w-full px-6 py-3 text-lightest-slate bg-navy fixed z-10 opacity-95
       ${visible ? "mt-[100] duration-300" : "mt-[-100px] duration-300 "} 
       ${scrollToTop ? "" : "shadow-lg"}
       `}
@@ -64,17 +64,17 @@ const NavBar = () => {
       <div>
         <a
           href="/"
-          className="text-5xl font-signature ml-2 text-cyan"
+          className="text-4xl font-signature ml-2 text-cyan"
         >
           Vicky
         </a>
       </div>
 
-      <ul className="hidden md:flex">
+      <ul className="hidden lg:flex items-center">
         {links.map(({ id, link, linkOrder }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium
+            className="px-4 cursor-pointer capitalize font-light
                                 text-lightest-slate hover:scale-105 duration-200"
           >
             <Link
@@ -87,18 +87,27 @@ const NavBar = () => {
             </Link>
           </li>
         ))}
+
+        <a
+          href="/resume.pdf"
+          className="text-cyan font-light border border-cyan rounded-md py-2 px-3 mx-3 hover:scale-105 duration-300"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
       </ul>
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-cyan md:hidden"
+        className="cursor-pointer pr-4 z-10 text-cyan lg:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
       {nav && (
         <ul
-          className="flex flex-col justify-center items-start px-8
+          className="flex flex-col justify-center items-center px-8
             absolute top-0 left-0 w-full h-screen 
             bg-navy"
         >
@@ -118,6 +127,17 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
+
+          <li className="px-4 cursor-pointer capitalize py-6 text-2xl items-center my-5">
+            <a
+              href="/resume.pdf"
+              className="text-cyan border border-cyan rounded-md py-3 px-6 hover:scale-105 duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       )}
     </div>
