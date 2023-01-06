@@ -15,7 +15,7 @@ const Home = () => {
           <span className="text-cyan pb-8">Hi, my name is</span>
 
           <h2 className="text-5xl md:text-7xl font-bold text-lightest-slate">
-            Vicky Lee
+            Vicky Lee.
           </h2>
 
           <h2 className="text-5xl md:text-7xl font-bold text-slate py-4">
@@ -26,7 +26,7 @@ const Home = () => {
                   .pauseFor(400)
                   .typeString(" the web")
                   .pauseFor(200)
-                  .typeString(" and mobile")
+                  .typeString(" and mobile.")
                   .start();
               }}
             />
