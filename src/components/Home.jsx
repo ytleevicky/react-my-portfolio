@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -10,13 +11,25 @@ const Home = () => {
       className="h-screen w-full bg-navy"
     >
       <div className="flex flex-col justify-center h-full p-6 md:p-12">
-        <div className="flex flex-col justify-center mx-auto px-6 md:px-28 ">
+        <div className="flex flex-col justify-center mx-auto px-6 md:px-28 min-w-full">
           <span className="text-cyan pb-8">Hi, my name is</span>
 
-          <h2 className="text-5xl md:text-7xl font-bold text-lightest-slate">Vicky Lee.</h2>
+          <h2 className="text-5xl md:text-7xl font-bold text-lightest-slate">
+            Vicky Lee
+          </h2>
 
           <h2 className="text-5xl md:text-7xl font-bold text-slate py-4">
-            I build things for the web and mobile
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("I build things for")
+                  .pauseFor(400)
+                  .typeString(" the web")
+                  .pauseFor(200)
+                  .typeString(" and mobile")
+                  .start();
+              }}
+            />
           </h2>
 
           <h2 className="text-slate my-4 md:w-1/2">
