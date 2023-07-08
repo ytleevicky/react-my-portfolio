@@ -21,30 +21,31 @@ const About = () => {
         <div className='flex flex-col md:flex-row py-6 justify-between md:space-x-14'>
           <div className='max-w-xl mb-7 md:w-4/6'>
             <h2>
-              Hello! I'm Vicky Lee, a Junior Software Engineer currently based
-              in Toronto. I'm passionate about building things for the web and
-              mobile.
+              Hi, I'm Vicky Lee, an international student from Hong Kong
+              currently pursuing my studies at George Brown College. With a
+              passion for continuous learning, I strive to expand my knowledge
+              and skills in various areas that intrigue me: Software
+              development, personal finance, fitness and health, and much more.
             </h2>
 
             <br />
 
             <h2>
-              In June 2021, I completed my 4-years undergraduate studies in
-              Computer Science at Hong Kong Baptist University. Once I
-              graduated, I worked as a C# .NET Programmer in Hong Kong Electric
-              Co. Ltd. (One of Hong Kong's two major electrical utility
-              providers) for more than a year. While working, I gradually
-              develop my interest in mobile app development.
+              When I'm not focused on academics, you can often find me in the
+              water, as swimming has become a beloved pastime of mine. The
+              tranquillity and sense of freedom I experience while swimming
+              provide a perfect balance to my busy student life. Additionally, I
+              find joy in gliding across the ice, as ice skating has become
+              another activity I relish since I arrived in Canada.
             </h2>
 
             <br />
 
             <h2>
-              Therefore, in September 2022, I come to Toronto to pursue a
-              postgraduate certificate concentrating on the discipline of mobile
-              app development at the George Brown College. I'm now looking for a
-              junior dev position to finally kick start my career in Toronto and
-              learn among professionals.
+              Through my dedication to personal growth and exploration, I aim to
+              make a positive impact in both my academic and personal spheres. I
+              eagerly embrace new challenges and opportunities that come my way,
+              always striving to push my boundaries and reach new heights.
             </h2>
           </div>
 
