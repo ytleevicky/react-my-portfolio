@@ -33,7 +33,7 @@ const Home = () => {
           </h2>
 
           <h2 className="text-slate my-4 md:w-1/2">
-            Full-stack Software Developer / Web Developer / Mobile Developer
+            IAM Systems Engineer / Full-stack Software Developer
           </h2>
 
           <div>
